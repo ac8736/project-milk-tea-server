@@ -129,3 +129,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 MONGO_CONNECTION_STRING = os.environ['MONGO_CONNECTION_STRING']
 MONGO_DB_NAME = os.environ['MONGO_DB_NAME']
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
