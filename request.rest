@@ -1,0 +1,11 @@
+POST http://127.0.0.1:8000/add-link
+content-type: application/json
+
+{
+    "_id" : "2" ,
+    "link" : "https://www.google.com/"
+}
+
+###
+
+GET http://127.0.0.1:8000/
